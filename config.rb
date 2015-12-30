@@ -1,7 +1,6 @@
 ###
 # LandingMan Static Site
 ###
-activate :landingman
 
 ###
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)

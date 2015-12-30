@@ -1,7 +1,6 @@
 # If you do not have OpenSSL installed, change
 # the following line to use 'http://'
 source 'https://rubygems.org'
-ruby '2.2.3'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
@@ -15,3 +14,7 @@ gem 'oj'
 
 # LandingMan
 gem 'middleman-landingman', source: 'https://gem.fury.io/ceematt/'
+
+# Middleman Gems
+gem 'middleman-imageoptim', github: 'LMolr/middleman-imageoptim', branch: 'master'
+gem 'middleman-sprockets', '>= 4.0.0.rc.1'
